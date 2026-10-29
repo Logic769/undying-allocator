@@ -34,7 +34,7 @@ cc -std=c89 -Wall -O2 -Isrc -o test_core tests/test_core.c src/rune_core.c src/u
 
 A step-by-step cold-start walkthrough lives in **[docs/start-here.md](docs/start-here.md)**.
 
-Hand-worked trap (one-byte overrun kills the tail fence): **[docs/why-canaries.md](docs/why-canaries.md)**.
+Hand-worked trap (one-byte overrun kills the tail fence): **[docs/why-canaries.md](docs/why-canaries.md)**. An annotated run of the same numbers: **[examples/canary-stomp.txt](examples/canary-stomp.txt)**.
 
 ## Built-out archive contents
 
